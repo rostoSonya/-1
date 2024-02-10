@@ -82,14 +82,6 @@ requestAnimationFrame(animate);
 
   
 		<script>
-			
-
-var button = document.querySelector("button");
-button.addEventListener("click", function() {
-alert("НЕ ТРОГАЙ МОИ ПЕЛЬМЕНИ!!!!");
-});
-
-document.getElementById('img').onclick = myFunction;
 
 function myFunction() {
   alert('Ouch!!!');
