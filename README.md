@@ -1,7 +1,9 @@
 <li><a href="https://pythontutor.com/render.html#mode=display/"> python </a></li>
 
+
 <li><a href="https://jsitor.com/">анимация</a></li>
-<!doctype html><html><head></head><body><!doctype html>
+
+
 <html>
 
 <head></head>
