@@ -120,7 +120,7 @@ requestAnimationFrame(animate1);
 
 		</script>
 </body>
-</html></body><html>
+</html>
 
 
 
