@@ -74,4 +74,54 @@ requestAnimationFrame(animate);
 
 
 
+		</script>
+
+
+
+  <img id="img" src="https://derpicdn.net/img/2017/10/10/1557772/full.gif" style="position: relative" width="300">
+		<script>
+			var cat1= document.querySelector("img");
+var angle = 0, lastTime = null;
+function animate1(time) {
+if (lastTime != null)
+angle += (time - lastTime) * 0.050;
+lastTime = time;
+cat.style.top = (Math.cos(angle) * 500      ) + "px";
+cat.style.left = (Math.sin(angle) * 200) + "px";
+requestAnimationFrame(animate1);
+}
+
+var button = document.querySelector("button");
+button.addEventListener("click", function() {
+alert("НЕ ТРОГАЙ МОИ ПЕЛЬМЕНИ!!!!");
+});
+
+document.getElementById('img').onclick = myFunction;
+
+function myFunction() {
+  alert('Ouch!!!');
+}
+
+
+requestAnimationFrame(animate1);
+
+
+
+
+
+		</script>
+		<script type="text/javascript">
+
+
+
+<li><a href="https://jsitor.com/">анимация</a></li>
+
+		</script>
+</body>
+</html></body><html>
+
+
+
+
+
                                     
