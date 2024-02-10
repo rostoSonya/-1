@@ -102,7 +102,7 @@ alert("НЕ ТРОГАЙ МОИ ПЕЛЬМЕНИ!!!!");
 document.getElementById('img').onclick = myFunction;
 
 function myFunction() {
-  alert('Ouch!!!');
+  alert('ВКУСНЯШКА!!!');
 }
 
 
