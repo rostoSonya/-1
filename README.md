@@ -59,7 +59,7 @@ alert("Ouch!!!!");
 document.getElementById('myImg').onclick = myFunction;
 
 function myFunction() {
-  alert('НЕ ТРОГАЙ МОИ ПЕЛЬМЕНИ!!!');
+  alert('ouch!!!');
 }
 
 
