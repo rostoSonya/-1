@@ -4,6 +4,7 @@
 <li><a href="https://jsitor.com/">анимация</a></li>
 
 
+
 <html>
 
 <head></head>
@@ -11,7 +12,7 @@
 <body>
 	<p style="text-align: center">
 
-		<button>Пельмешки!</button>
+		<button>ПЕЛЬМЕШКИ!</button>
 		<p>Горошка и морковки хватит, МММ... салатик. МММ... отлично...МММ... салатик</p>
 
 		<style>
@@ -47,19 +48,19 @@ if (lastTime != null)
 angle += (time - lastTime) * 0.002;
 lastTime = time;
 cat.style.top = (Math.cos(angle) * 50      ) + "px";
-cat.style.left = (Math.sin(angle) * 100) + "px";
+cat.style.left = (Math.sin(angle) * 200) + "px";
 requestAnimationFrame(animate);
 }
 
 var button = document.querySelector("button");
 button.addEventListener("click", function() {
-alert("Ouch!!!!");
+alert("OUCH!!!!");
 });
 
 document.getElementById('myImg').onclick = myFunction;
 
 function myFunction() {
-  alert('ouch!!!');
+  alert('НЕ ТРОГАЙ МОИ ПЕЛЬМЕНИ!!!');
 }
 
 
@@ -80,8 +81,25 @@ requestAnimationFrame(animate);
 
 
 
-  
+  <img id="img" src="https://derpicdn.net/img/2017/10/10/1557772/full.gif" style="position: relative" width="300">
 		<script>
+			var cat1= document.querySelector("img");
+var angle = 0, lastTime = null;
+function animate1(time) {
+if (lastTime != null)
+angle += (time - lastTime) * 0.050;
+lastTime = time;
+cat.style.top = (Math.cos(angle) * 500      ) + "px";
+cat.style.left = (Math.sin(angle) * 200) + "px";
+requestAnimationFrame(animate1);
+}
+
+var button = document.querySelector("button");
+button.addEventListener("click", function() {
+alert("НЕ ТРОГАЙ МОИ ПЕЛЬМЕНИ!!!!");
+});
+
+document.getElementById('img').onclick = myFunction;
 
 function myFunction() {
   alert('Ouch!!!');
@@ -104,8 +122,6 @@ requestAnimationFrame(animate1);
 		</script>
 </body>
 </html>
-
-
 
 
 
