@@ -45,7 +45,7 @@ if (lastTime != null)
 angle += (time - lastTime) * 0.002;
 lastTime = time;
 cat.style.top = (Math.cos(angle) * 50      ) + "px";
-cat.style.left = (Math.sin(angle) * 200) + "px";
+cat.style.left = (Math.sin(angle) * 100) + "px";
 requestAnimationFrame(animate);
 }
 
@@ -78,7 +78,7 @@ requestAnimationFrame(animate);
 
 
 
-  <img id="img" src="https://derpicdn.net/img/2017/10/10/1557772/full.gif" style="position: relative" width="300">
+  
 		<script>
 			var cat1= document.querySelector("img");
 var angle = 0, lastTime = null;
