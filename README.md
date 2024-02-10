@@ -82,16 +82,7 @@ requestAnimationFrame(animate);
 
   
 		<script>
-			var cat1= document.querySelector("img");
-var angle = 0, lastTime = null;
-function animate1(time) {
-if (lastTime != null)
-angle += (time - lastTime) * 0.050;
-lastTime = time;
-cat.style.top = (Math.cos(angle) * 500      ) + "px";
-cat.style.left = (Math.sin(angle) * 200) + "px";
-requestAnimationFrame(animate1);
-}
+			
 
 var button = document.querySelector("button");
 button.addEventListener("click", function() {
