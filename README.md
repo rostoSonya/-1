@@ -11,7 +11,7 @@
 <body>
 	<p style="text-align: center">
 
-		<button>Покорми меня!</button>
+		<button>Пельмешки!</button>
 		<p>Горошка и морковки хватит, МММ... салатик. МММ... отлично...МММ... салатик</p>
 
 		<style>
@@ -53,13 +53,13 @@ requestAnimationFrame(animate);
 
 var button = document.querySelector("button");
 button.addEventListener("click", function() {
-alert("НЕ ТРОГАЙ МОИ ПЕЛЬМЕНИ!!!!");
+alert("Ouch!!!!");
 });
 
 document.getElementById('myImg').onclick = myFunction;
 
 function myFunction() {
-  alert('Ouch!!!');
+  alert('НЕ ТРОГАЙ МОИ ПЕЛЬМЕНИ!!!');
 }
 
 
