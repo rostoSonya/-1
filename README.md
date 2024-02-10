@@ -72,7 +72,7 @@ requestAnimationFrame(animate);
 
 		</script>
 		<script type="text/javascript">
-  <li>для того чтобы создать анимацию нам нужны мозги </li>
+  <ul>для того чтобы создать анимацию нам нужны мозги </ul>
 
 
 
