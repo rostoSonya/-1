@@ -78,7 +78,8 @@ requestAnimationFrame(animate);
  2.компьютер(желательно рабочий)
  3.Приступим
  </p>
- ![image](https://github.com/rostoSonya/-1/assets/153977631/7a3bc38a-4e50-43e1-afba-18c7267ca263)
+ 
+ <img id="myImg" src="https://github.com/rostoSonya/-1/assets/153977631/7a3bc38a-4e50-43e1-afba-18c7267ca263" style="position: relative">
 
 
 
