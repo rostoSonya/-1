@@ -173,7 +173,7 @@ a:hover #img4, a:focus #img4  {
 
 <ul>
 
-  <li><a href=""><img src="![image](https://github.com/rostoSonya/-1/assets/153977631/ac0d6d4a-7745-4145-bd4c-5fa43eec29f5)" id="img1" alt ""></a</li>
+
 
   <li><a href=""><img src="jellyfish1.jpg" id="img2" alt=""></a></li>
 
