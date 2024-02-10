@@ -72,40 +72,10 @@ requestAnimationFrame(animate);
 
 		</script>
 		<script type="text/javascript">
+  <li>для того чтобы создать анимацию нам нужны мозги </li>
 
 
 
-
-li { float: left; margin-right: 10px;
-}
-
-li:last-of-type {
- margin-right: 0;
-}
-
-
-a { display: block;
-}
-
-
-img { width: 200px; height: 150px; box-shadow: 2px 2px 2px rgba(0,0,0,.4);
-
-transition: transform .3s ease-in-out; 
-}
-
-
-a:hover img {
-	box-shadow: 6px 6px 6px rgba(0,0,0,.3);
-}
-
-
-a:hover #img1, a:focus #img1  {
-	transform: scale(2.5) rotate(-6deg);
-}
-
-a:hover #img2, a:focus #img2  {
-	transform: scale(2.5) rotate(8deg);
-}
 
 
 
