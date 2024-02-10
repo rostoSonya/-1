@@ -76,27 +76,6 @@ requestAnimationFrame(animate);
 
 
 
-  <html>
-
-<head>
-
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-<title>Трансформации</title>
-
-
-<style>
-
-body {
- font-family: Tahoma, Verdana, Geneva, sans-serif;
- margin: 6em 6em; font-weight: bold;
-}
-
-ul {
- list-style-type: none; padding: 0;
-	margin: 0;
-}
-
 li { float: left; margin-right: 10px;
 }
 
@@ -119,49 +98,14 @@ a:hover img {
 	box-shadow: 6px 6px 6px rgba(0,0,0,.3);
 }
 
-a:hover #img1
- box-shadow: 6px 6px 6px rgba(0,0,0,.3);
 
+a:hover #img1, a:focus #img1  {
+	transform: scale(2.5) rotate(-6deg);
 }
 
 a:hover #img2, a:focus #img2  {
-	transform: scale(3.0 rotate(5deg);
+	transform: scale(2.5) rotate(8deg);
 }
-
-a:hover #img3, a:focus #img3  {
-	transform: scale(3.0) rotate(-7deg);
-}
-
-a:hover #img4, a:focus #img4  {
-	transform: scale(3.0) rotate(2deg);
-}
-
-
-</style>
-
-
-</head>
-
-
-
-<body>
-
-
-<ul>
-
-  <li><a href=""><img src="anchovies.jpg" id="img1" alt ""></a</li>
-
-  <li><a href=""><img src="jellyfish1.jpg" id="img2" alt=""></a></li>
-
-  <li><a href=""><img src="bluejellyfish.jpg" id="img3" alt=""></a></li>
-
-  <li><a href=""><img src="seadragon.jpg" id="img4"alt=""></a></li>
-</ul>
-
-
-</body>
-
-</html>
 
 
 
