@@ -64,7 +64,6 @@ function myFunction() {
   alert('Ouch!!!');
 }
 
-
 requestAnimationFrame(animate);
 
 
