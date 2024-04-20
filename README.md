@@ -1,3 +1,11 @@
+<!doctype html><html><head></head><body><!doctype html>
+<html>
+
+<head></head>
+
+<body>
+
+ 
 <li><a href="https://pythontutor.com/render.html#mode=display/"> python </a></li>
 <li><a href="https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/stable_diffusion.ipynb#scrollTo=yEErJFjlrSWS">рисование в colab<a/></li>
 <li><a href="https://www.designspiration.com/">Арт концепт<a/></li>
@@ -16,12 +24,9 @@
 
 
 
-<!doctype html><html><head></head><body><!doctype html>
-<html>
 
-<head></head>
 
-<body>
+
 	<p style="text-align: center">
 
 		<button>Покорми меня!</button>
