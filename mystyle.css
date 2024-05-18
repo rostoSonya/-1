@@ -1,6 +1,7 @@
 			body {
 				height: 200px;
-				background: beige;
+				
+				background-image: url("pink2.jpg");
 			}
 
 			#myImg {
